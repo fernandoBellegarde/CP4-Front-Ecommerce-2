@@ -1,0 +1,24 @@
+.accordion .btn-link {
+    color: #343a40;
+    text-decoration: none;
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+}
+
+.accordion .btn-link:hover {
+    text-decoration: none;
+}
+
+.accordion .btn-link:after {
+    content: '\f078';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    float: right;
+    transition: transform 0.2s ease-in-out;
+}
+
+.accordion .btn-link.collapsed:after {
+    transform: rotate(-90deg);
+}
+

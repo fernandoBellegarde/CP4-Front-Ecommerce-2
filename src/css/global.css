@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    padding-top: 56px; 
+}
+
+h1, h2, h3, h4, h5, h6, .navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-nav .nav-item .badge {
+    position: absolute;
+    top: 5px;
+    right: -5px;
+    font-size: 0.6rem;
+}
+
+.product-card {
+    border: 1px solid #eee;
+    transition: box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.product-card .btn-primary {
+    background-color: #007bff;
+    border: none;
+    font-weight: bold;
+}

@@ -1,0 +1,60 @@
+.hero-banner {
+    height: 70vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1589995189139-3a13997235a9?q=80&w=2070') no-repeat center center;
+    background-size: cover;
+}
+
+.hero-banner .btn-success {
+    background-color: #28a745;
+    border: none;
+    padding: 10px 30px;
+    font-weight: bold;
+    max-width: 200px;
+}
+
+.carousel-item {
+    min-height: 280px;
+    background-color: #777;
+}
+
+.carousel-item img {
+    height: 100%;
+    min-height: 280px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+@media (min-width: 768px) {
+    .carousel-item, .carousel-item img {
+        height: 70vh;
+        min-height: 400px;
+    }
+}
+
+.card-guia {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-guia .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-guia:hover .card {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15) !important;
+}
+
+.testimonial-card {
+    border-left: 5px solid #28a745;
+    border-radius: .25rem;
+}
+
+.testimonial-card img {
+    width: 60px;
+    height: 60px;
+}

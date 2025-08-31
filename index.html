@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./src/css/global.css">
+    <link rel="stylesheet" href="./src/css/index.css">
+    <link rel="shortcut icon" href="./src/assets/imgs/icone-topo-sites.webp">
+
+    <title>E-commerce lol</title>
+</head>
+<body>
+   <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+        <div class="container">
+            <a class="navbar-brand" href="#">Ecolol</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarmenu" aria-controls="navbarmenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarmenu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./src/pages/travesseiros.html">Travesseiros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./src/pages/categorias.html">Categorias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./src/pages/contato.html">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" aria-label="Carrinho de compras">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </header>
+    <main>
+    <section id="banner-principal" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#banner-principal" data-slide-to="0" class="active"></li>
+        <li data-target="#banner-principal" data-slide-to="1"></li>
+        <li data-target="#banner-principal" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="./src/assets/imgs/travesseiro-ideal.jpg" alt="Primeiro banner">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Travesseiros NASA em Dobro</h5>
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="./src/assets/imgs/travesseiro-prop.jpg" alt="Segundo banner">
+             <div class="carousel-caption d-none d-md-block">
+                <h5>Lançamento Fresh Gel Gelado</h5>
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="./src/assets/imgs/travesseiro-ideal.jpg" alt="Terceiro banner">
+             <div class="carousel-caption d-none d-md-block">
+                <h5>Frete Grátis para todo o Brasil</h5>
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
+        </div>
+    </div>
+
+    <a class="carousel-control-prev" href="#banner-principal" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#banner-principal" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+    </a>
+    </section>
+
+    <section class="container text-center py-5">
+        <div class="row">
+            <div class="col-md-3 col-6 mb-4">
+                <i class="fas fa-moon fa-3x text-success mb-3"></i>
+                <h5>Conforto Inigualável</h5>
+                <p class="text-muted small">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-md-3 col-6 mb-4">
+                <i class="fas fa-shipping-fast fa-3x text-success mb-3"></i>
+                <h5>Entrega Rápida</h5>
+                <p class="text-muted small">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-md-3 col-6 mb-4">
+                <i class="fas fa-leaf fa-3x text-success mb-3"></i>
+                <h5>Materiais Sustentáveis</h5>
+                <p class="text-muted small">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-md-3 col-6 mb-4">
+                <i class="fas fa-shield-alt fa-3x text-success mb-3"></i>
+                <h5>30 Noites de Teste</h5>
+                <p class="text-muted small">Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Encontre o travesseiro ideal para você!!</h2>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <a href="#" class="card-guia">
+                        <div class="card shadow-sm">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Dorme de Ladinho?</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 mb-4">
+                     <a href="#" class="card-guia">
+                        <div class="card shadow-sm">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Dorme de Costas?</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 mb-4">
+                     <a href="#" class="card-guia">
+                        <div class="card shadow-sm">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Dorme de Bruços?</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container py-5">
+
+    <section id="categoria-lado" class="mb-5">
+        <h2 class="text-center mb-4">Para Dormir de Lado</h2>
+        <div class="row">
+            <div class="col-12 col-sm-6 col-lg-4 mb-4">
+                <div class="card product-card h-100">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Travesseiro natal folhas</h5>
+                        <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h4 class="mt-auto">R$ 259,90</h4>
+                        <a href="#" class="btn btn-primary mt-2">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 mb-4">
+                 <div class="card product-card h-100">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Travesseiro NASA container</h5>
+                        <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h4 class="mt-auto">R$ 199,90</h4>
+                        <a href="#" class="btn btn-primary mt-2">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 mb-4">
+                 <div class="card product-card h-100">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Travesseiro altura maleavel</h5>
+                        <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h4 class="mt-auto">R$ 219,90</h4>
+                        <a href="#" class="btn btn-primary mt-2">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="categoria-calor">
+        <h2 class="text-center mb-4">Para Noites Mais Frescas</h2>
+        <div class="row">
+            <div class="col-12 col-sm-6 col-lg-4 mb-4">
+                <div class="card product-card h-100">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Travesseiro NASA Fresh Gel Geladinho</h5>
+                        <p class="card-text text-muted">Partículas de gel que dissipam o calor e regulam a temperatura.</p>
+                        <h4 class="mt-auto">R$ 189,90</h4>
+                        <a href="#" class="btn btn-primary mt-2">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 mb-4">
+                 <div class="card product-card h-100">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Travesseiro Fibra de Bambu Ice</h5>
+                        <p class="card-text text-muted">Capa com tecido de toque frio para máximo frescor.</p>
+                        <h4 class="mt-auto">R$ 179,90</h4>
+                        <a href="#" class="btn btn-primary mt-2">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+     <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">O que nossos clientes dizem</h2>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="card testimonial-card">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <div>
+                                    <h6 class="mb-0">Mariana Silva</h6>
+                                    <div class="text-warning">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="card-text font-italic">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non voluptatibus nobis ratione!"</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="card testimonial-card">
+                         <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <div>
+                                    <h6 class="mb-0">João Pereira</h6>
+                                    <div class="text-warning">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="card-text font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non voluptatibus nobis ratione!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+    <footer class="bg-dark text-white pt-5 pb-4">
+    <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left">
+
+            <div class="col-md-4 col-lg-5 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-success">Lorem</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non voluptatibus nobis ratione!</p>
+            </div>
+
+            <div class="col-md-4 col-lg-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-success">EcoLOL</h5>
+                <p><a href="#" class="text-white" style="text-decoration: none;">Sobre Nós</a></p>
+                <p><a href="#" class="text-white" style="text-decoration: none;">Políticas da Loja</a></p>
+                <p><a href="#" class="text-white" style="text-decoration: none;">Trabalhe Conosco</a></p>
+                <p><a href="#" class="text-white" style="text-decoration: none;">Contato</a></p>
+            </div>
+
+            <div class="col-md-4 col-lg-4 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-success">Contato</h5>
+                <p>📍 São Paulo, SP, Brasil</p>
+                <p>📧 bellegardefernando@gmail.com</p>
+                <p>📞 (11) 99999-8888</p>
+            </div>
+
+        </div>
+
+        <hr class="mb-4">
+
+        <div class="row align-items-center">
+            
+            <div class="col-md-7 col-lg-8">
+                <p> © 2025 Copyright:
+                    <a href="#" class="text-success" style="text-decoration: none;">
+                        <strong>EcoLol.com</strong>
+                    </a>
+                </p>
+            </div>
+            <div class="col-md-5 col-lg-4">
+                <div class="text-center text-md-right">
+                    <ul class="list-unstyled list-inline">
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/fernan.bell/" class="text-white">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                
+                        <li class="list-inline-item">
+                            <a href="www.linkedin.com/in/fernandobellegarde" class="text-white">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

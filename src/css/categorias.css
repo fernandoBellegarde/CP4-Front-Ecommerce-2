@@ -1,0 +1,43 @@
+.product-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-areas:
+        "title"
+        "image"
+        "purchase"
+        "description";
+}
+
+.product-title { 
+    grid-area: title; 
+}
+.product-image { 
+    grid-area: image; 
+}
+.product-purchase { 
+    grid-area: purchase; 
+}
+.product-description { 
+    grid-area: description; 
+}
+
+
+@media (min-width: 992px) {
+    .product-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "image title"
+            "image purchase"
+            "image description";
+        
+        column-gap: 40px;
+    }
+}
+
+.product-image img {
+    border: 1px solid #eee;
+}
+
+.product-purchase .form-control {
+    max-width: 100px;
+}
